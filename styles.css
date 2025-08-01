@@ -418,7 +418,7 @@ h5 {
 @media (max-width: 768px) {
     #welcome-section {
         background-image: url('images/profile-pic.png');
-        background-size: 180% auto;
+        background-size: 160% auto;
         background-position: 20% bottom;
         background-repeat: no-repeat;
         background-blend-mode: lighten;
@@ -445,9 +445,10 @@ h5 {
             padding-right: 0 !important;
             margin-left: auto;
             margin-right: auto;
+            margin-top: 1rem;
             justify-self: center;
             align-self: center;
-            justify-content: center !important;
+            justify-content: flex-start !important;
             height: 100vh;
             padding: 1rem;
         }
