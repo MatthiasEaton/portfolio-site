@@ -418,8 +418,8 @@ h5 {
 @media (max-width: 768px) {
     #welcome-section {
         background-image: url('images/profile-pic.png');
-        background-size: cover;
-        background-position: center;
+        background-size: 180% auto;
+        background-position: 20% bottom;
         background-repeat: no-repeat;
         background-blend-mode: lighten;
         background-color: rgba(255, 255, 255, 0.6);
