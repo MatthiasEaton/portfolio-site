@@ -487,5 +487,25 @@ h5 {
         }
 }
 
+@media (min-width: 769px) and (max-width: 1148px) {
+    .welcome-container {
+        max-width: 95vw;
+        padding: 0 1rem;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
 
+    .profile-pic {
+        max-width: 225%;
+        transform: none;
+        margin-right: 3rem;
+        padding-right: 10rem;
+    }
 
+    .welcome-text {
+        padding: 1rem;
+        text-align: left;
+        max-width: 100%;
+        transform: none;
+    }
+}
